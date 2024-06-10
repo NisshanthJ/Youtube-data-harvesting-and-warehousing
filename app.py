@@ -16,7 +16,7 @@ from sqlalchemy import create_engine
 
 api_service_name = "youtube"
 api_version = "v3"
-api_Key="AIzaSyCidz5FA6YMUMNoXF4FT3kBKhRrRsIQmXM"
+api_Key="API KEY"
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_Key)
 
 
